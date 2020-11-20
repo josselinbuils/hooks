@@ -1,6 +1,6 @@
 {
   "name": "@josselinbuils/hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Josselin BUILS",
   "license": "MIT",
   "description": "React hooks shared between my projects.",
@@ -10,7 +10,7 @@
     "doc": "api-documenter",
     "build": "rimraf dist && rollup -c && rimraf dist/index.d.ts && yarn copy:package-files",
     "lint": "eslint .",
-    "lint:staged": "exec-staged 'yarn lint' '\\.(js|ts)'",
+    "lint:staged": "exec-staged 'eslint' '\\.(js|ts)$'",
     "prettier:staged": "exec-staged 'prettier --write' '\\.(js|ts)$'",
     "test": "jest"
   },
