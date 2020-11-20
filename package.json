@@ -1,0 +1,58 @@
+{
+  "name": "@josselinbuils/hooks",
+  "version": "0.1.0",
+  "author": "Josselin BUILS",
+  "license": "MIT",
+  "description": "React hooks shared between my projects.",
+  "scripts": {
+    "add:staged": "exec-staged 'git add' '\\.(js|ts)$'",
+    "copy:package-files": "cpx ./package.json dist && cpx ./README.md dist",
+    "doc": "api-documenter",
+    "build": "rimraf dist && rollup -c && rimraf dist/index.d.ts && yarn copy:package-files",
+    "lint": "eslint .",
+    "lint:staged": "exec-staged 'yarn lint' '\\.(js|ts)'",
+    "prettier:staged": "exec-staged 'prettier --write' '\\.(js|ts)$'",
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint:staged && yarn prettier:staged && yarn add:staged"
+    }
+  },
+  "devDependencies": {
+    "@josselinbuils/api-documenter": "^0.4.0",
+    "@josselinbuils/eslint-config-typescript": "^0.1.1",
+    "@josselinbuils/exec-staged": "^0.1.1",
+    "@microsoft/api-extractor": "^7.12.0",
+    "@rollup/plugin-multi-entry": "^4.0.0",
+    "@rollup/plugin-typescript": "^6.1.0",
+    "@types/jest": "^26.0.15",
+    "@types/react": "^17.0.0",
+    "cpx": "^1.5.0",
+    "eslint": "^7.14.0",
+    "husky": "^4.3.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.0",
+    "react": "^17.0.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.33.3",
+    "ts-jest": "^26.4.4",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.2"
+  },
+  "peerDependencies": {
+    "react": "^17"
+  },
+  "homepage": "https://github.com/josselinbuils/utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josselinbuils/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josselinbuils/utils/issues"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {}
+}

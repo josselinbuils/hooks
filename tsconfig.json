@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "lib": ["esnext", "dom"],
+    "module": "esnext",
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "target": "esnext"
+  },
+  "include": ["src"]
+}
