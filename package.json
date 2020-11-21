@@ -1,6 +1,6 @@
 {
   "name": "@josselinbuils/hooks",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Josselin BUILS",
   "license": "MIT",
   "description": "React hooks shared between my projects.",
