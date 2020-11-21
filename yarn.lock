@@ -482,10 +482,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@josselinbuils/api-documenter@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@josselinbuils/api-documenter/-/api-documenter-0.5.0.tgz#74bcf4e825ef799f1632ee5d9976228241b4a0a9"
-  integrity sha512-q5TcGviuNKJ4vNNePUQ0YwvjJGv9rQKCdSR/Zn2kXAG0tUlBLyGDr9WO2Xb5pCljTA8LDmAbG/37Rlrjduv7LA==
+"@josselinbuils/api-documenter@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@josselinbuils/api-documenter/-/api-documenter-0.5.2.tgz#733ae582fb332dd93e14426b8d05940e3d755f09"
+  integrity sha512-IL/c/FCPvby9MVW/bot8FAjzxYpWXpDkLK9oxdPo/ULgoIfKuU8aZZW0P3XD49r7EmW24oTMmElqxkKcqCYbsA==
   dependencies:
     "@microsoft/api-extractor" "^7.12.0"
     "@microsoft/api-extractor-model" "^7.12.0"

@@ -14,11 +14,11 @@ function useKeyMap(keyMap: {
 
 ## Parameters
 
-| Parameter | Type                                                               | Description |
-| --------- | ------------------------------------------------------------------ | ----------- |
-| keyMap    | `{     [keyStr: string]: (event: KeyboardEvent) => false ǀ any; }` |             |
-| active    | `boolean`                                                          |             |
-| priority  | `number`                                                           |             |
+| Parameter | Type                                                          | Description |
+| --------- | ------------------------------------------------------------- | ----------- |
+| keyMap    | `{ [keyStr: string]: (event: KeyboardEvent) => false ǀ any;}` |             |
+| active    | `boolean`                                                     |             |
+| priority  | `number`                                                      |             |
 
 ## Returns
 
