@@ -4,6 +4,3 @@ module.exports = [
     commands: ['eslint', 'prettier --write', 'git add'],
   },
 ];
-
-
-

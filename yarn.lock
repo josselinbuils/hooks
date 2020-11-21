@@ -510,10 +510,10 @@
     eslint-plugin-import "^2.22.1"
     eslint-plugin-prettier "^3.1.4"
 
-"@josselinbuils/exec-staged@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@josselinbuils/exec-staged/-/exec-staged-1.0.1.tgz#ed5b3d55a55b67222d3c8f42241346010e6a37b8"
-  integrity sha512-qhQYyYff2Ux2JQVYR76ADotl814eKHcz1cdbPQq0F30FpLQaztoZMJjBwXrPJyLgwQt6Aojwd/lIq6t48BIokA==
+"@josselinbuils/exec-staged@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@josselinbuils/exec-staged/-/exec-staged-1.0.2.tgz#a95328a7996ee4f58967da66d2bea66fa8aab475"
+  integrity sha512-ER55S59KrAwQvdcQlI/uI0ODWA7dAL3X7jjbCML8WqcMsJmeaTuw+PsQVMyhVfu8M6ZeltP4bVMWfOEpgAQOaw==
 
 "@microsoft/api-extractor-model@7.1.0":
   version "7.1.0"

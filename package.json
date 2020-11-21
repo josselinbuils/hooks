@@ -25,7 +25,7 @@
   "devDependencies": {
     "@josselinbuils/api-documenter": "^0.4.0",
     "@josselinbuils/eslint-config-typescript": "^0.1.1",
-    "@josselinbuils/exec-staged": "^1.0.1",
+    "@josselinbuils/exec-staged": "^1.0.2",
     "@microsoft/api-extractor": "^7.12.0",
     "@rollup/plugin-multi-entry": "^4.0.0",
     "@rollup/plugin-typescript": "^6.1.0",
