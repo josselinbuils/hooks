@@ -515,11 +515,6 @@
   resolved "https://registry.yarnpkg.com/@josselinbuils/exec-staged/-/exec-staged-1.0.2.tgz#a95328a7996ee4f58967da66d2bea66fa8aab475"
   integrity sha512-ER55S59KrAwQvdcQlI/uI0ODWA7dAL3X7jjbCML8WqcMsJmeaTuw+PsQVMyhVfu8M6ZeltP4bVMWfOEpgAQOaw==
 
-"@josselinbuils/hooks@0.1.4-test":
-  version "0.1.4-test"
-  resolved "https://registry.yarnpkg.com/@josselinbuils/hooks/-/hooks-0.1.4-test.tgz#ddf6e83ef70ff21de645b840aeffd90d96525525"
-  integrity sha512-jYkz3w1zbHKeusRUPMriAAu+KwyBvpigcmapYTZp4lS+lGQaM2VyGENW/9tMmGhCkv/0HZHoEum46nj/6V145g==
-
 "@microsoft/api-extractor-model@7.12.0", "@microsoft/api-extractor-model@^7.12.0":
   version "7.12.0"
   resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.12.0.tgz#ad5589c166b31dad3c8669b46b050f8bc4056f1b"
