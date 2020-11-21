@@ -1,16 +1,16 @@
 {
   "name": "@josselinbuils/hooks",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Josselin BUILS",
   "license": "MIT",
   "description": "React hooks shared between my projects.",
-  "homepage": "https://github.com/josselinbuils/utils",
+  "homepage": "https://github.com/josselinbuils/hooks",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josselinbuils/utils.git"
+    "url": "git+https://github.com/josselinbuils/hooks.git"
   },
   "bugs": {
-    "url": "https://github.com/josselinbuils/utils/issues"
+    "url": "https://github.com/josselinbuils/hooks/issues"
   },
   "scripts": {
     "copy:package-files": "cpx ./package.json dist && cpx ./README.md dist",
