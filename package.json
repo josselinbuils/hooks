@@ -15,7 +15,7 @@
   "scripts": {
     "copy:package-files": "cpx ./package.json dist && cpx ./README.md dist",
     "doc": "api-documenter",
-    "build": "rimraf dist && rollup -c && rimraf dist/index.d.ts && yarn copy:package-files",
+    "build": "rimraf dist && rollup -c && yarn doc && rimraf dist/index.d.ts && yarn copy:package-files",
     "lint": "eslint .",
     "test": "jest"
   },
@@ -23,7 +23,7 @@
     "react": "^17"
   },
   "devDependencies": {
-    "@josselinbuils/api-documenter": "^0.4.0",
+    "@josselinbuils/api-documenter": "^0.5.0",
     "@josselinbuils/eslint-config-typescript": "^0.1.1",
     "@josselinbuils/exec-staged": "^1.0.2",
     "@microsoft/api-extractor": "^7.12.0",
